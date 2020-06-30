@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .toolbar__toggle-button {
+    display: none;
+  }
+}
+
+.toolbar {
+  position: static;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 56px;
+  padding-top: 10px;
+}
+
+.toolbar__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.odd {
+  color: #00ffbb;
+}

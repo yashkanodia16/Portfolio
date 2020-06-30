@@ -1,0 +1,31 @@
+.container {
+  margin: 0;
+  padding-left: 30;
+  padding-right: 30;
+  padding-top: 15;
+  padding-bottom: 15;
+  flex-grow: 1;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  margin-top: 20;
+  margin-bottom: 20;
+}
+
+.heading {
+  font-family: Sans-Serif;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: "sm";
+}
+
+.contact {
+  /* height: 100vh; */
+  position: absolute;
+  vertical-align: middle;
+  margin-bottom: 15rem;
+}
