@@ -51,12 +51,15 @@ export default function About() {
                 <div className="about-content">
                   <b>Hello!</b> My name is Yash Kanodia, and I am a graduate
                   Student at University of North Carolina at Charlotte, majoring
-                  in Computer Science. I am a Graduate Teaching Assistant at
-                  UNCC for Logics and Algotihms. I was also a Web development
-                  intern for the Ganyt E-commerce solutions pvt ltd and Sammey
-                  INC. I will be graduating in Fall 2021 and looking for
-                  Full-time opportunities. In my free time, I enjoy watching and
-                  playing sports.
+                  in Computer Science. I have solid understanding of Agile,
+                  Relational and NoSQL databases. I have strong understanding of
+                  Data Structures and Algorithms. I am a well-organized person
+                  with good interpersonal skills and high work ethics. I am a
+                  Graduate Teaching Assistant at UNCC for Logics and Algotihms.
+                  I have hands-on experience in developing scalable cross
+                  browser web Applications. I will be graduating in Fall 2021
+                  and looking for Full-time opportunities. In my free time, I
+                  enjoy watching and playing sports.
                 </div>
                 <br />
                 <ButtonBar />

@@ -39,10 +39,10 @@ class App extends React.Component {
           params={{
             particles: {
               number: {
-                value: 50,
+                value: 30,
               },
               size: {
-                value: 3,
+                value: 2,
               },
             },
             interactivity: {
