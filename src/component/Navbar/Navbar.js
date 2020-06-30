@@ -166,22 +166,22 @@ export class Header extends Component {
               >
                 Resume
               </Button>
-              <Button a href="#About" color="inherit">
+              <Button href="#About" color="inherit">
                 About
               </Button>
-              <Button a href="#Experience" color="inherit">
+              <Button href="#Experience" color="inherit">
                 Experience
               </Button>
-              <Button a href="#projects" color="inherit">
+              <Button href="#projects" color="inherit">
                 Projects
               </Button>
-              <Button a href="#Skills" color="inherit">
+              <Button href="#Skills" color="inherit">
                 Skills
               </Button>
-              <Button a href="#Education" color="inherit">
+              <Button href="#Education" color="inherit">
                 Education
               </Button>
-              <Button a href="#Contact" color="inherit">
+              <Button href="#Contact" color="inherit">
                 Contact
               </Button>
             </div>

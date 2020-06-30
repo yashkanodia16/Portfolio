@@ -11,7 +11,6 @@ import Contact from "./component/Contact/Contact";
 import Projects from "./component/Projects/Projects";
 import Footer from "./component/Footer/Footer";
 import Particles from "./component/Particles/Particles";
-import DarkParticlesTheme from "./component/Particles/DarkParticlesTheme";
 
 class App extends React.Component {
   state = {
