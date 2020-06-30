@@ -60,7 +60,7 @@ export default function CustomizedTimeline() {
                   University of North Carolina at Charlotte
                 </Typography>
                 <Typography variant="h6">Teaching Assistant</Typography>
-                <Typography variant="h7">
+                <Typography variant="h6">
                   Teaching assistant for ITCS 2175 Logic and Algorithms.
                 </Typography>
               </Paper>
@@ -84,7 +84,7 @@ export default function CustomizedTimeline() {
                   Ganyt Ecommerce Solutions Pvt Ltd.
                 </Typography>
                 <Typography variant="h6">Web Development Intern</Typography>
-                <Typography variant="h7">
+                <Typography variant="h6">
                   Responsible for developing user-friendly interface to easily
                   navigate the web application in HTML and JavaScript.
                 </Typography>
@@ -109,7 +109,7 @@ export default function CustomizedTimeline() {
                   Sammey INC
                 </Typography>
                 <Typography variant="h6">Web Development Intern</Typography>
-                <Typography variant="h7">
+                <Typography variant="h6">
                   Responsible for developing front-end UI for web applications
                   as per the requirements of company's client, with regular
                   updates and modifications as and when required.

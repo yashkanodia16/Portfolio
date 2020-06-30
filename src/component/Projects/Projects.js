@@ -23,7 +23,6 @@ class Projects extends Component {
     return (
       <div>
         <Grid
-          xs="auto"
           container
           spacing={40}
           justify="center"
