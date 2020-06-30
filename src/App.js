@@ -63,6 +63,14 @@ class App extends React.Component {
         <About />
         <Experience />
         <Projects />
+        <div>
+          <h1
+            id="Skills"
+            style={{ fontFamily: "Roboto Slab", textAlign: "center" }}
+          >
+            Skills
+          </h1>
+        </div>
         <Skills />
         <Education />
         <Contact />

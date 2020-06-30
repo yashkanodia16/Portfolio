@@ -28,7 +28,11 @@ export default function About() {
     <div className="about">
       <div className="row">
         <div className="left_column">
-          <p id="About" className="heading">
+          <p
+            id="About"
+            className="heading"
+            style={{ fontFamily: "Roboto Slab" }}
+          >
             About
           </p>
           <div className="text">

@@ -34,7 +34,11 @@ export default function CustomizedTimeline() {
   return (
     <div>
       <div>
-        <h1 id="Experience" className={classes.heading}>
+        <h1
+          id="Experience"
+          className={classes.heading}
+          style={{ fontFamily: "Roboto Slab" }}
+        >
           Experience
         </h1>
         <Timeline align="alternate">

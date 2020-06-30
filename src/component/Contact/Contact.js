@@ -37,7 +37,10 @@ class ContactForm extends PureComponent {
           <Paper className={classes.container}>
             <form method="post" action="https://formspree.io/maypbkla">
               <Grid container direction="column" spacing={0} justify="center">
-                <h2 id="Contact" style={{ marginBottom: 0 }}>
+                <h2
+                  id="Contact"
+                  style={{ marginBottom: 0, fontFamily: "Roboto Slab" }}
+                >
                   Contact Me
                 </h2>
                 <TextField

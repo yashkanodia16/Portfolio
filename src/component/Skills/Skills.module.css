@@ -12,7 +12,6 @@
 .column {
   flex: 1;
   min-width: 40%;
-  max-width: 45%;
   margin: 20px;
 }
 
@@ -23,12 +22,14 @@
 }
 
 .left_column {
-  flex: 0 0 120px; /* grow */
+  flex: 0 0 120px;
+  /* grow */
   margin: 10px 20px 20px 10px;
 }
 
 .right_column {
-  flex: 1; /* grow */
+  flex: 1;
+  /* grow */
   min-width: calc(100% - 180px);
   margin: 10px 10px 20px 20px;
   padding: 8px;

@@ -30,7 +30,6 @@ class Projects extends Component {
           alignItems="center"
           direction="row"
           id="projects"
-          // style={{ backgroundColor: "#ff9681" }}
         >
           <Grid item xs={12}>
             <h1 style={{ textAlign: "center" }} id="projects">
@@ -50,11 +49,19 @@ class Projects extends Component {
                   title="React"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Github Finder
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="h2"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
+                    <b>Github Finder</b>
                   </Typography>
 
-                  <Typography component="p">
+                  <Typography
+                    component="p"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
                     Github Finder searches for all the Github users using the
                     text inputted by the user in the form. It returns all the
                     users matching the string in a grid format.
@@ -69,6 +76,7 @@ class Projects extends Component {
                   href="https://findergithubprofile1234567.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   Netlify
                 </Button>
@@ -79,6 +87,7 @@ class Projects extends Component {
                   href="https://github.com/yashkanodia16/Github-Finder"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   GitHub
                 </Button>
@@ -97,14 +106,22 @@ class Projects extends Component {
                   title="JavaScript"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Budgety
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="h2"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
+                    <b> Budgety </b>
                   </Typography>
 
-                  <Typography component="p">
+                  <Typography
+                    component="p"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
                     Budgety is a simple budget tracker app. It allows user to
-                    input incomes & expenses and see how the complete budget
-                    changes due to custom insertions.
+                    input incomes & expenses and see how the budget changes due
+                    to custom insertions.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -116,6 +133,7 @@ class Projects extends Component {
                   href="https://github.com/yashkanodia16/budgety"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   GitHub
                 </Button>
@@ -131,11 +149,19 @@ class Projects extends Component {
                   title="NodeJS"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Meet-up Soccer
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="h2"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
+                    <b>Meet-up Soccer</b>
                   </Typography>
 
-                  <Typography component="p">
+                  <Typography
+                    component="p"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
                     Developed web-based artifacts to render Soccer events in the
                     form of connections, user can login and can also create a
                     new event.
@@ -150,6 +176,7 @@ class Projects extends Component {
                   href="https://github.com/yashkanodia16/Network-Based-Application-Development"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   GitHub
                 </Button>
@@ -165,10 +192,18 @@ class Projects extends Component {
                   title="Android"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    TCET Kiosk
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="h2"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
+                    <b>TCET Kiosk</b>
                   </Typography>
-                  <Typography component="p">
+                  <Typography
+                    component="p"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
                     This system is used to automate the generation of letters
                     where anyone who had the app could interact with the admin
                     using an appropriate formal letter format.
@@ -183,6 +218,7 @@ class Projects extends Component {
                   href="https://github.com/yashkanodia16/TCET-Kiosk-System"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   Github
                 </Button>
@@ -201,10 +237,18 @@ class Projects extends Component {
                   title="JavaScript"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Forkify
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="h2"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
+                    <b>Forkify</b>
                   </Typography>
-                  <Typography component="p">
+                  <Typography
+                    component="p"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
                     Forkify is a web application for beginner cooks and kitchen
                     hobbyists to search and save their favorite recipes. It is a
                     MVC app that calls the food2fork API to show recipes.
@@ -219,6 +263,7 @@ class Projects extends Component {
                   href="https://github.com/yashkanodia16/Forkify"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   Github
                 </Button>
@@ -237,10 +282,18 @@ class Projects extends Component {
                   title="JavaScript"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Pig Game
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="h2"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
+                    <b> Pig Game </b>
                   </Typography>
-                  <Typography component="p">
+                  <Typography
+                    component="p"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
                     Developed a game in which player rolls a dice and if the
                     player rolls a 1, they score nothing and it becomes the next
                     player's turn. The first player to score set points wins.
@@ -255,6 +308,7 @@ class Projects extends Component {
                   href="https://github.com/yashkanodia16/pig-game"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   Github
                 </Button>
@@ -270,10 +324,18 @@ class Projects extends Component {
                   title="Leetcode"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Leetcode
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="h2"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
+                    <b>Leetcode</b>
                   </Typography>
-                  <Typography component="p">
+                  <Typography
+                    component="p"
+                    style={{ fontFamily: "Roboto Slam" }}
+                  >
                     I have solved many problems on Leetcode using Java. There
                     are 800+ questions (and growing), each with multiple
                     solutions. Questions are ranked by: easy, medium, and hard.
@@ -288,6 +350,7 @@ class Projects extends Component {
                   href="https://github.com/yashkanodia16/Leetcode_Easy"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   Easy
                 </Button>
@@ -298,6 +361,7 @@ class Projects extends Component {
                   href="https://github.com/yashkanodia16/leetcode-Medium"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   Medium
                 </Button>
@@ -308,6 +372,7 @@ class Projects extends Component {
                   href="https://github.com/yashkanodia16/Leetcode_Hard"
                   target="_blank"
                   rel="noreferrer"
+                  style={{ fontFamily: "Roboto Slam" }}
                 >
                   Hard
                 </Button>

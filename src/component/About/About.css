@@ -10,7 +10,7 @@
 }
 
 .heading {
-  font-family: Sans-Serif;
+  font-family: "Roboto Slab";
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
@@ -54,10 +54,6 @@
 .about-content {
   text-align: justify;
 }
-
-/* .background {
-  background-image: url("about-background.png ");
-} */
 
 @media (max-width: 900px) {
   .left_column {

@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   ExpansionPanel,
   ExpansionPanelSummary,
@@ -29,6 +28,8 @@ const BorderLinearProgress = withStyles((theme) => ({
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
+    marginLeft: "auto",
+    marginRight: "auto",
   },
   header: {
     backgroundColor: theme.palette.primary.main,
@@ -46,13 +47,7 @@ function Panel({ header, array }) {
   const classes = useStyles();
 
   return (
-    // style={{ height: "100vh" }}
     <div className={styles.column}>
-      <div>
-        <h1 id="Skills" className={classes.heading}>
-          Skills
-        </h1>
-      </div>
       <ExpansionPanel expanded={true} className={classes.root}>
         <ExpansionPanelSummary
           className={classes.header}
@@ -65,7 +60,10 @@ function Panel({ header, array }) {
         <ExpansionPanelDetails className={styles.row}>
           {array.map((data) => {
             return (
-              <div className={styles.max_width}>
+              <div
+                className={styles.max_width}
+                style={{ marginLeft: "auto", marginRight: "auto" }}
+              >
                 <div className={styles.left_column}>
                   <Typography variant="h6">{data.name}</Typography>
                 </div>
