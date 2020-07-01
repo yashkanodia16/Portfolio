@@ -55,7 +55,7 @@ export default function About() {
                   Relational and NoSQL databases. I have strong understanding of
                   Data Structures and Algorithms. I am a well-organized person
                   with good interpersonal skills and high work ethics. I am a
-                  Graduate Teaching Assistant at UNCC for Logics and Algotihms.
+                  Graduate Teaching Assistant at UNCC for Logics and Algorithms.
                   I have hands-on experience in developing scalable cross
                   browser web Applications. I will be graduating in Fall 2021
                   and looking for Full-time opportunities. In my free time, I
